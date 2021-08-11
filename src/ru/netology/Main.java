@@ -18,8 +18,8 @@ public class Main {
             int pricePerMetr = scanner.nextInt();
             int squareSize = Estate.areaCounter(width, length);
             int sum = Estate.priceCounter(squareSize, pricePerMetr);
-            Estate setl1 = new Estate(width, length, sum);
-            setl1.checkFair();
+            Estate myFutureSetle = new Estate(width, length, sum);
+            myFutureSetle.checkFair();
         }
     }
 }
